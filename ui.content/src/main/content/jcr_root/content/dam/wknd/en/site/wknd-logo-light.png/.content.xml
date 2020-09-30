@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="a1497df8-6967-4c9a-b9a0-56a9869f2bb1">
     <jcr:content
+        cq:name="wknd-logo-light.png"
+        cq:parentPath="/content/dam/wknd/en/site"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-12-13T15:12:16.124-08:00"
+        jcr:lastModified="{Date}2020-09-22T23:58:28.465+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -25,6 +28,8 @@
             dam:size="{Long}5624"
             dc:format="image/png"
             dc:modified="{Date}2019-10-25T16:50:48.998-07:00"
+            jcr:lastModified="{Date}2020-09-22T23:58:28.465+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}127"
